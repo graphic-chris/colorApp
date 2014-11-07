@@ -3,12 +3,12 @@ angular.module('starter.controllers', [])
 .controller('DashCtrl', function($scope) {
 })
 
-.controller('FriendsCtrl', function($scope, Friends) {
-  $scope.friends = Friends.all();
+.controller('schemesCtrl', function($scope, Schemes) {
+  $scope.schemes = Schemes.all();
 })
 
-.controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
-  $scope.friend = Friends.get($stateParams.friendId);
+.controller('SchemeDetailCtrl', function($scope, $stateParams, Schemes) {
+  $scope.scheme = Schemes.get($stateParams.schemeId);
 })
 
 .controller('AccountCtrl', function($scope) {

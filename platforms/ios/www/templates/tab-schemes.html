@@ -1,0 +1,9 @@
+<ion-view title="Schemes">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="scheme in schemes" type="item-text-wrap" href="#/tab/scheme/{{scheme.id}}">
+        {{scheme.name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
