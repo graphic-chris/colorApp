@@ -1,3 +1,3 @@
-colorApp
+color app
 ========
 Chris Svedin
