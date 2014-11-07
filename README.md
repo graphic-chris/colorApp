@@ -5,3 +5,6 @@ Chris Svedin
 after cloning, you'll have to:
 bower install
 
+Use
+ioinc emulate
+to view

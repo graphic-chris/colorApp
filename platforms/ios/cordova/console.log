@@ -122,3 +122,19 @@
 2014-11-06 19:08:24.707 myApp[21303:456488] [CDVTimer][TotalPluginStartup] 0.311017ms
 2014-11-06 19:08:24.760 myApp[21303:456488] Resetting plugins due to page load.
 2014-11-06 19:08:24.894 myApp[21303:456488] Finished load of: file:///Users/mcllama/Library/Developer/CoreSimulator/Devices/67C6C829-2E97-412D-82F2-F6F983CD972E/data/Containers/Bundle/Application/8DABFE8A-3C3F-4834-AF8E-D8AFC0E2F470/myApp.app/www/index.html#/tab/dash
+2014-11-06 19:20:18.797 myApp[21887:461031] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/mcllama/Library/Developer/CoreSimulator/Devices/67C6C829-2E97-412D-82F2-F6F983CD972E/data/Containers/Data/Application/6E22746C-DABC-4117-B045-FFEFC592B483/Library/Cookies/Cookies.binarycookies
+2014-11-06 19:20:18.882 myApp[21887:461031] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-06 19:20:18.883 myApp[21887:461031] Multi-tasking -> Device: YES, App: YES
+2014-11-06 19:20:18.887 myApp[21887:461031] Unlimited access to network resources
+2014-11-06 19:20:19.063 myApp[21887:461031] [CDVTimer][keyboard] 0.051022ms
+2014-11-06 19:20:19.063 myApp[21887:461031] [CDVTimer][TotalPluginStartup] 0.202000ms
+2014-11-06 19:20:19.165 myApp[21887:461031] Resetting plugins due to page load.
+2014-11-06 19:20:19.354 myApp[21887:461031] Finished load of: file:///Users/mcllama/Library/Developer/CoreSimulator/Devices/67C6C829-2E97-412D-82F2-F6F983CD972E/data/Containers/Bundle/Application/7FFA9652-97AA-46DE-B836-0E30A103C949/myApp.app/www/index.html#/tab/dash
+2014-11-06 20:03:43.261 myApp[22378:469080] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/mcllama/Library/Developer/CoreSimulator/Devices/67C6C829-2E97-412D-82F2-F6F983CD972E/data/Containers/Data/Application/73E1ADE6-67C9-408F-9A65-F1FAFB22B180/Library/Cookies/Cookies.binarycookies
+2014-11-06 20:03:43.353 myApp[22378:469080] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-06 20:03:43.354 myApp[22378:469080] Multi-tasking -> Device: YES, App: YES
+2014-11-06 20:03:43.360 myApp[22378:469080] Unlimited access to network resources
+2014-11-06 20:03:43.630 myApp[22378:469080] [CDVTimer][keyboard] 0.097990ms
+2014-11-06 20:03:43.630 myApp[22378:469080] [CDVTimer][TotalPluginStartup] 0.252008ms
+2014-11-06 20:03:43.686 myApp[22378:469080] Resetting plugins due to page load.
+2014-11-06 20:03:43.836 myApp[22378:469080] Finished load of: file:///Users/mcllama/Library/Developer/CoreSimulator/Devices/67C6C829-2E97-412D-82F2-F6F983CD972E/data/Containers/Bundle/Application/3693ADD5-3FD0-4288-8D0F-173E9468A212/myApp.app/www/index.html#/tab/schemes

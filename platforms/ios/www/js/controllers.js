@@ -10,6 +10,3 @@ angular.module('starter.controllers', [])
 .controller('SchemeDetailCtrl', function($scope, $stateParams, Schemes) {
   $scope.scheme = Schemes.get($stateParams.schemeId);
 })
-
-.controller('AccountCtrl', function($scope) {
-});
