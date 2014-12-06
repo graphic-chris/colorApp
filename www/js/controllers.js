@@ -1,11 +1,14 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {
-})
+    .controller("schemesCtrl", ['$scope','$http', function($scope, $http)
+    {
+      $http.get('data/schemes.json').success (function(data){
+        console.log(data);
+        $scope.schemes = data;
+      });
 
-.controller('schemesCtrl', function($scope, Schemes) {
-  $scope.schemes = Schemes.all();
-})
+    }]
+)
 
 .controller('SchemeDetailCtrl', function($scope, $stateParams, Schemes) {
   $scope.scheme = Schemes.get($stateParams.schemeId);

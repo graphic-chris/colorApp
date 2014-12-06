@@ -1,0 +1,19 @@
+[
+
+  {
+    "id": 1,
+    "name": "Sunset",
+    "color1": "red",
+    "color2": "orange",
+    "color3": "yellow",
+    "color4": "maroon"
+  },
+  {
+    "id":2,
+    "name": "Aqua",
+    "color1": "blue",
+    "color2": "cyan",
+    "color3": "dark blue",
+    "color4": "turquoise"
+  }
+]

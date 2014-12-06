@@ -43,7 +43,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       views: {
         'tab-create': {
           templateUrl: 'templates/tab-create.html',
-          controller: 'DashCtrl'
         }
       }
     })
