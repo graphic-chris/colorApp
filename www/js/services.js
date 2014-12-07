@@ -8,7 +8,7 @@ angular.module('starter.services', [])
 
 
   var schemes = [
-    { id: 0, name: 'Sunset' },
+    { id: "sunset", name: 'Sunset' },
     { id: 1, name: 'Aqua' },
     { id: 2, name: 'Pastels' },
     { id: 3, name: 'High Energy' },

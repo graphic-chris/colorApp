@@ -6,12 +6,13 @@ angular.module('starter.services', [])
 .factory('Schemes', function() {
   // Might use a resource here that returns a JSON array
 
-  // Some fake testing data
+
   var schemes = [
-    { id: 0, name: 'Sunset' },
-    { id: 1, name: 'Pastels' },
-    { id: 2, name: 'High Contrast' },
-    { id: 3, name: 'yellows' }
+    { id: "sunset", name: 'Sunset' },
+    { id: 1, name: 'Aqua' },
+    { id: 2, name: 'Pastels' },
+    { id: 3, name: 'High Energy' },
+    { id: 4, name: 'Sandy Beach' }
   ];
 
   return {
