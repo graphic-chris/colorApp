@@ -1,12 +1,49 @@
-<!--
-  This template loads for the 'tab.scheme-detail' state (app.js)
-  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
-  The FriendsCtrl pulls data from the Friends service (service.js)
-  The Friends service returns an array of friend data
--->
+
 <ion-view title="{{scheme.name}}">
   <ion-content has-header="true" padding="true">
-    <h1>{{scheme.name}}</h1>
-    <p>{{scheme.color1}}</p>
+    <div class="row detail-list">
+      <div class="col" style="background-color:rgb({{scheme.color1.r}},{{scheme.color1.g}},{{scheme.color1.b}})"></div>
+      <div class="col" style="background-color:rgb({{scheme.color2.r}},{{scheme.color2.g}},{{scheme.color2.b}})"></div>
+      <div class="col" style="background-color:rgb({{scheme.color3.r}},{{scheme.color3.g}},{{scheme.color3.b}})"></div>
+      <div class="col" style="background-color:rgb({{scheme.color4.r}},{{scheme.color4.g}},{{scheme.color4.b}})"></div>
+      <div class="col" style="background-color:rgb({{scheme.color5.r}},{{scheme.color5.g}},{{scheme.color5.b}})"></div>
+    </div>
+    <div class="button-bar" ng-controller="modalCtrl">
+      <a class="button icon ion-edit" ng-click="openModal()"></a>
+      <a class="button icon ion-edit" ng-click="openModal()"></a>
+      <a class="button icon ion-edit" ng-click="openModal()"></a>
+      <a class="button icon ion-edit" ng-click="openModal()"></a>
+      <a class="button icon ion-edit" ng-click="openModal()"></a>
+    </div>
+
   </ion-content>
 </ion-view>
+
+<script id="edit-modal.html" type="text/ng-template">
+  <div class="modal">
+    <ion-header-bar>
+      <h1 class="title">Edit Color</h1>
+    </ion-header-bar>
+    <ion-content>
+      <div class="list">
+        <div class="item range range-positive">
+          <i class="icon ion-ios7-sunny-outline"></i>
+          <input type="range" name="volume" min="0" max="255" value="150">
+          <i class="icon ion-ios7-sunny"></i>
+        </div>
+        <div class="item range range-positive">
+          <i class="icon ion-ios7-sunny-outline"></i>
+          <input type="range" name="volume" min="0" max="255" value="150">
+          <i class="icon ion-ios7-sunny"></i>
+        </div>
+        <div class="item range range-positive">
+          <i class="icon ion-ios7-sunny-outline"></i>
+          <input type="range" name="volume" min="0" max="255" value="150">
+          <i class="icon ion-ios7-sunny"></i>
+        </div>
+      </div>
+
+      <button class="button button-full button-energized" ng-click="closeModal()">Done</button>
+    </ion-content>
+  </div>
+</script>
