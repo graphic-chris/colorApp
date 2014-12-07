@@ -1,19 +1,52 @@
 [
 
   {
-    "id": 1,
+    "id": 0,
     "name": "Sunset",
-    "color1": "red",
-    "color2": "orange",
-    "color3": "yellow",
-    "color4": "maroon"
+    "color1": "#FFCC6E",
+    "color2": "#FBA470",
+    "color3": "#A4453F",
+    "color4": "#90404C",
+    "color5": "#AF4764"
   },
+
+  {
+    "id":1,
+    "name": "Aqua",
+    "color1": "#00CCFF",
+    "color2": "#A1FCFF",
+    "color3": "#040438",
+    "color4": "#004878",
+    "color5": "#C9FAFF"
+  },
+
   {
     "id":2,
-    "name": "Aqua",
-    "color1": "blue",
-    "color2": "cyan",
-    "color3": "dark blue",
-    "color4": "turquoise"
+    "name": "Pastels",
+    "color1": "#45CEEF",
+    "color2": "#FFF5A5",
+    "color3": "#FFD4DA",
+    "color4": "#99D2E4",
+    "color5": "#D8CAB4"
+  },
+
+  {
+    "id":3,
+    "name": "High Energy",
+    "color1": "#FF0058",
+    "color2": "#0077FF",
+    "color3": "#FF8500",
+    "color4": "#FAFF00",
+    "color5": "#00FF93"
+  },
+
+  {
+    "id":4,
+    "name": "Sandy Beach",
+    "color1": "#E6E2AF",
+    "color2": "#A7A37E",
+    "color3": "#EAEDD6",
+    "color4": "#046380",
+    "color5": "#002F2F"
   }
 ]

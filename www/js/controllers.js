@@ -10,6 +10,15 @@ angular.module('starter.controllers', [])
     }]
 )
 
+ //   .controller('SchemeDetailCtrl', ['$scope','$http', function($scope, $http, $stateParams, Schemes) {
+  //      $http.get('data/schemes.json').success(function (data) {
+   //         console.log(data);
+    //        $scope.schemes = data;
+     //       $scope.scheme = Schemes.get($stateParams.schemeId);
+      //  });
+   // }]
+//)
+
 .controller('SchemeDetailCtrl', function($scope, $stateParams, Schemes) {
   $scope.scheme = Schemes.get($stateParams.schemeId);
 })

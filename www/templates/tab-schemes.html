@@ -1,8 +1,24 @@
 <ion-view title="Color Keeper Schemes">
   <ion-content>
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" placeholder="Search">
+      </label>
+    </div>
+
     <ion-list>
       <ion-item ng-repeat="scheme in schemes" type="item-text-wrap" href="#/tab/scheme/{{scheme.id}}">
-        {{scheme.name}}
+        <h3>{{scheme.name}}</h3>
+        <div class="row schemes">
+          <div class="col" style="background-color:{{scheme.color1}}"></div>
+          <div class="col" style="background-color:{{scheme.color2}}"></div>
+          <div class="col" style="background-color:{{scheme.color3}}"></div>
+          <div class="col" style="background-color:{{scheme.color4}}"></div>
+          <div class="col" style="background-color:{{scheme.color5}}"></div>
+        </div>
+
+
       </ion-item>
     </ion-list>
   </ion-content>
