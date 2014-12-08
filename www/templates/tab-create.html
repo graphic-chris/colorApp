@@ -1,5 +1,82 @@
 <ion-view title="Create New Scheme">
-  <ion-content class="padding">
-    <h1>Create New Color Scheme</h1>
+  <ion-content has-header="true" padding="true">
+
+    <div class="list list-inset">
+      <label class="item item-input">
+         <input type="text" placeholder="New Scheme Name">
+      </label>
+    </div>
+    <div class="row detail-list">
+      <div class="col new"></div>
+      <div class="col new"></div>
+      <div class="col new"></div>
+      <div class="col new"></div>
+      <div class="col new"></div>
+    </div>
+    <div class="button-bar" ng-controller="modalCtrl">
+      <a class="button icon ion-edit" ng-click="openModal()"></a>
+      <a class="button icon ion-edit" ng-click="openModal()"></a>
+      <a class="button icon ion-edit" ng-click="openModal()"></a>
+      <a class="button icon ion-edit" ng-click="openModal()"></a>
+      <a class="button icon ion-edit" ng-click="openModal()"></a>
+    </div>
+
+    <button ng-controller="photoCtrl" class="button button-block button-positive icon ion-camera" ng-click="openPhoto()">
+      Pull colors from a photo
+    </button>
+
   </ion-content>
 </ion-view>
+
+<script id="edit-modal.html" type="text/ng-template">
+  <div class="modal">
+    <ion-header-bar>
+      <h1 class="title">Edit Color</h1>
+    </ion-header-bar>
+    <ion-content>
+      <div id="swatch" class="new" style="width:50%; height:100px; margin: auto;"></div>
+
+      <div class="list">
+        <div class="item range range-assertive">
+          <label>R:</label>
+          <i class="icon ion-ios7-sunny"></i>
+          <input id="red" type="range" name="volume" min="0" max="255" value="30">
+          <i class="icon ion-ios7-sunny-outline"></i>
+        </div>
+        <div class="item range range-balanced">
+          <label>G:</label>
+          <i class="icon ion-ios7-sunny"></i>
+          <input id="green" type="range" name="volume" min="0" max="255" value="30">
+          <i class="icon ion-ios7-sunny-outline"></i>
+        </div>
+        <div class="item range range-positive">
+          <label>B:</label>
+          <i class="icon ion-ios7-sunny"></i>
+          <input id="blue" type="range" name="volume" min="0" max="255" value="30">
+          <i class="icon ion-ios7-sunny-outline"></i>
+        </div>
+      </div>
+
+      <button class="button button-full button-energized" ng-click="closeModal()">Done</button>
+    </ion-content>
+  </div>
+</script>
+
+<script id="photo-modal.html" type="text/ng-template">
+  <div class="modal">
+    <ion-header-bar>
+      <h1 class="title">Colors from a photo</h1>
+
+    </ion-header-bar>
+    <ion-content style="padding: 15px;">
+      <button class="button button-block button-calm icon ion-folder">
+        Choose a photo from your library
+      </button>
+      <button class="button button-block button-positive icon ion-camera">
+        Take a photo with the camera
+      </button>
+
+      <button class="button button-full button-assertive icon ion-close" ng-click="closeModal()">Cancel</button>
+    </ion-content>
+  </div>
+</script>

@@ -25,21 +25,26 @@
       <h1 class="title">Edit Color</h1>
     </ion-header-bar>
     <ion-content>
+         <div id="swatch" style="width:50%; height:100px; margin: auto; background-color:rgb({{scheme.color1.r}},{{scheme.color1.g}},{{scheme.color1.b}});"></div>
+
       <div class="list">
-        <div class="item range range-positive">
+        <div class="item range range-assertive">
+          <label>R:</label>
           <i class="icon ion-ios7-sunny"></i>
-          <input type="range" name="volume" min="0" max="255" value="20">
-          <i class="icon ion-ios7-sunny-outline"></i>Red
+          <input id="red" type="range" name="volume" min="0" max="255" value="20">
+          <i class="icon ion-ios7-sunny-outline"></i>
+        </div>
+        <div class="item range range-balanced">
+          <label>G:</label>
+          <i class="icon ion-ios7-sunny"></i>
+          <input id="green" type="range" name="volume" min="0" max="255" value="150">
+          <i class="icon ion-ios7-sunny-outline"></i>
         </div>
         <div class="item range range-positive">
+          <label>B:</label>
           <i class="icon ion-ios7-sunny"></i>
-          <input type="range" name="volume" min="0" max="255" value="150">
-          <i class="icon ion-ios7-sunny-outline"></i>Green
-        </div>
-        <div class="item range range-positive">
-          <i class="icon ion-ios7-sunny"></i>
-          <input type="range" name="volume" min="0" max="255" value="75">
-          <i class="icon ion-ios7-sunny-outline"></i>Blue
+          <input id="blue" type="range" name="volume" min="0" max="255" value="75">
+          <i class="icon ion-ios7-sunny-outline"></i>
         </div>
       </div>
 
