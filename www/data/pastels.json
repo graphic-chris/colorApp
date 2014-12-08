@@ -1,9 +1,29 @@
   {
     "id":"pastels",
     "name": "Pastels",
-    "color1": "#45CEEF",
-    "color2": "#FFF5A5",
-    "color3": "#FFD4DA",
-    "color4": "#99D2E4",
-    "color5": "#D8CAB4"
+    "color1":{
+      "r":248,
+      "g":239,
+      "b":182
+    },
+    "color2":{
+      "r":254,
+      "g":186,
+      "b":197
+    },
+    "color3":{
+      "r":108,
+      "g":209,
+      "b":234
+    },
+    "color4":{
+      "r":250,
+      "g":207,
+      "b":215
+    },
+    "color5":{
+      "r":194,
+      "g":234,
+      "b":233
+    }
   }

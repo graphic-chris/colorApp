@@ -1,9 +1,29 @@
 {
   "id":"sandy-beach",
   "name": "Sandy Beach",
-  "color1": "#E6E2AF",
-  "color2": "#A7A37E",
-  "color3": "#EAEDD6",
-  "color4": "#046380",
-  "color5": "#002F2F"
+  "color1":{
+    "r":230,
+    "g":226,
+    "b":175
+  },
+  "color2":{
+    "r":167,
+    "g":163,
+    "b":126
+  },
+  "color3":{
+    "r":239,
+    "g":236,
+    "b":202
+  },
+  "color4":{
+    "r":4,
+    "g":99,
+    "b":128
+  },
+  "color5":{
+    "r":0,
+    "g":47,
+    "b":47
+  }
 }

@@ -3,12 +3,12 @@
     <div class="list list-inset">
       <label class="item item-input">
         <i class="icon ion-search placeholder-icon"></i>
-        <input type="text" placeholder="Search">
+        <input type="text" placeholder="Search" ng-model="query">
       </label>
     </div>
 
     <ion-list>
-      <ion-item ng-repeat="scheme in schemes" type="item-text-wrap" href="#/tab/scheme/{{scheme.id}}">
+      <ion-item ng-repeat="scheme in schemes | filter:query" type="item-text-wrap" href="#/tab/scheme/{{scheme.id}}">
         <h3>{{scheme.name}}</h3>
         <div class="row schemes">
           <div class="col" style="background-color:{{scheme.color1}}"></div>

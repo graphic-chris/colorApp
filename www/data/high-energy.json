@@ -1,9 +1,29 @@
 {
   "id":"high-energy",
   "name": "High Energy",
-  "color1": "#FF0058",
-  "color2": "#0077FF",
-  "color3": "#FF8500",
-  "color4": "#FAFF00",
-  "color5": "#00FF93"
+  "color1":{
+    "r":255,
+    "g":0,
+    "b":88
+  },
+  "color2":{
+    "r":0,
+    "g":119,
+    "b":255
+  },
+  "color3":{
+    "r":255,
+    "g":133,
+    "b":0
+  },
+  "color4":{
+    "r":250,
+    "g":255,
+    "b":0
+  },
+  "color5":{
+    "r":0,
+    "g":255,
+    "b":147
+  }
 }
