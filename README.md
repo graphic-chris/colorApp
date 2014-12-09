@@ -8,10 +8,10 @@ The color keeper app lets you store a collection of “color schemes” to your 
 1. Clone the repository onto your local machine
 2. Change directory into "colorApp"
 3. Install dependencies with NPM:
-```npm install```
+```npm install``` (you may need to use the ```sudo``` user if like me, you haven't set up the user right.)
 4. Install frontend dependencies with Bower:
 ```bower install```
 4. Start serving Ionic in a browser:
-```ionic start```
+```ionic serve```
 5. OR: emulate with an installed emulator:
 ```ionic emulate```
